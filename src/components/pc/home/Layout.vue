@@ -1,5 +1,5 @@
 <template lang="pug">
-  .pc
+  .pc //sample
     .biglogo
       img(alt="あれ" src="@/assets/img/logo.svg")
     h2.font-weight-bold あれを探す

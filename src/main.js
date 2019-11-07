@@ -1,3 +1,4 @@
+//sample 
 import Vue from 'vue'
 import App from './App.vue'
 //vue-routerを使用します。

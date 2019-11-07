@@ -1,4 +1,4 @@
-
+//sample
 import Vue from 'vue'
 import Vuex from 'vuex'
 // リロードしても消えないようにする

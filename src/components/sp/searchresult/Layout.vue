@@ -1,6 +1,6 @@
 <template>
   <div class="searchresult">
-    <div class="inner overflowVisible">
+    <div class="inner overflowVisible"><!--sample-->
       <h2 v-if=" title !=''">
         {{ title }}の検索結果
       </h2>

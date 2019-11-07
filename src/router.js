@@ -1,3 +1,4 @@
+//sample
 import Vue from 'vue'
 import VueGtm from 'vue-gtm'
 import Router from 'vue-router'

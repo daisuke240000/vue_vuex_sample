@@ -1,3 +1,4 @@
+//sample
 module.exports = {
   css: {
     loaderOptions:{

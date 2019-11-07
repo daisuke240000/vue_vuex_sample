@@ -1,6 +1,6 @@
 <template>
   <div class="sp">
-    <Form />
+    <Form /><!--sample-->
     <div class="detailSearch">
       <div class="inner">
         <h2 class="extend font-weight-bold">

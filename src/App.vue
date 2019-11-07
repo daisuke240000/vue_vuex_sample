@@ -4,6 +4,7 @@
   </div>
 </template>
 <script>
+//sample
 import $ from 'jquery'
 export default {
   data() {

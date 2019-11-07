@@ -1,6 +1,6 @@
 <template>
   <div class="detail">
-    <div id="items">
+    <div id="items"><!--sample-->
       <div class="inner">
         <breadcrumb />
         <div class="item_wrapper">

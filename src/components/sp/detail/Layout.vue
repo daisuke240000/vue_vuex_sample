@@ -1,6 +1,6 @@
 <template>
   <div class="detail">
-    <div class="items">
+    <div class="items"><!--sample-->
       <div class="item">
         <div class="inner">
           <p class="assort mt20">

@@ -1,5 +1,5 @@
 <template lang="pug">
-  .searchresult
+  .searchresult //sample
     .inner
       breadcrumb
       .customContainer
