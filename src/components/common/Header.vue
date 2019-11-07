@@ -4,12 +4,12 @@
       .inner.cf
         h1.title
           a(href="/media/")
-            img(src="@/assets/img/logo.svg" alt="ヒトシア介護" title="ヒトシア")
+            img(src="@/assets/img/logo.svg" alt="あれ" title="あれ")
         ul.nav_list
           li
-            router-link(to="/kaigo/") 介護施設を探す
+            router-link(to="/kaigo/") あれを探す
           li
-            a(href="/media/") 介護の情報ガイド
+            a(href="/media/") あれの情報ガイド
           li.sp_nav
             a(href="/media/company/") 会社概要
           li.sp_nav
@@ -17,9 +17,9 @@
           li.sp_nav
             a(href="/media/policy") プライバシーポリシー
         p.pc_desc
-          | 日本中の介護施設情報が全てここに
+          | あれが全てここに
           br
-          | 介護施設探しは「ヒトシア介護」
+          | あれは「あれ」
         #fontsize
           ul
             li.current.middle 標準
