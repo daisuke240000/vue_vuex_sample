@@ -4,15 +4,15 @@
       .inner.cf
         p.logo
           a(href="/media/")
-            img(src="@/assets/img/footer_logo.svg" alt="ヒトシア")
+            img(src="@/assets/img/footer_logo.svg" alt="あれ")
         p.copy Copyright © hitoshia Co.,Ltd. All Rights Reserved.
         ul.footer_list
           li
-            a(href="/media/company/") 会社概要
+            a(href="/media/company/") 会社
           li
-            a(href="/media/contact/") お問い合わせ
+            a(href="/media/contact/") 問合せ
           li
-            a(href="/media/policy/") プライバシーポリシー
+            a(href="/media/policy/") PP
 </template>
 <script>
 export default {
