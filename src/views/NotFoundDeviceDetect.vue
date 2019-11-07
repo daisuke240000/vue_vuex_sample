@@ -1,5 +1,5 @@
 <template>
-  <div class="notfound">
+  <div class="notfound"><!--sample-->
     <Header />
     <h1>404 Page Not Found</h1>
     <Footer />

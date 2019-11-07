@@ -1,5 +1,5 @@
 <template lang="pug">
-  .detail
+  .detail //sample
     Header
     .sp(v-if="isMobile()")
       SpLayout
