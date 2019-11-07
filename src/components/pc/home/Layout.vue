@@ -1,12 +1,12 @@
 <template lang="pug">
   .pc
     .biglogo
-      img(alt="ヒトシア介護" src="@/assets/img/logo.svg")
-    h2.font-weight-bold 介護施設を探す
+      img(alt="あれ" src="@/assets/img/logo.svg")
+    h2.font-weight-bold あれを探す
     updateinfo
     forms(:select-requirement="selectRequirement" :select-assortment="selectAssortment" :select-feature="selectFeature" :select-medical="selectMedical")
     .detailSearch.mb50
-      h2.extend.font-weight-bold 詳しい条件で介護施設を探す
+      h2.extend.font-weight-bold 詳しい条件であれを探す
       p.mb40 サービスの充実度や介護認定のレベルで選びたい方の検索です。
       .iconWrapper
         .icons
@@ -15,8 +15,8 @@
           feature
           medical
     .kaigoMedia.pt50.pb30
-      h2.extend.font-weight-bold 介護に関するお役立ち情報
-      p.mb40 初めて介護をする方や、介護についてより詳しく知りたいという方も、<br class="PCNone">介護施設選びのためにお役立てください。
+      h2.extend.font-weight-bold あれに関するお役立ち情報
+      p.mb40 初めてあれをする方や、介護についてより詳しく知りたいという方も、<br class="PCNone">あれ選びのためにお役立てください。
       news
     button#scrolltoTop.toTop(@click="toTop()")
       i.fas.fa-angle-up.fa-2x
