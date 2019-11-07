@@ -1,0 +1,115 @@
+/*Variable.css*/
+
+//くろ系
+$text-color            : #212240; //紺色
+//はいいろ系
+$border-color          : #CDD6DD; //線の色
+$text-color-alt        : #667481; //基本テキストにも使える灰色
+$note-color            : #969ea2; //注釈など、ギリギリ読める灰色
+$note-color-alt        : #aaaaaa; //（×ボタンなど）濃い灰色
+$primary-bg-color      : #fafafa; //背景色・ほぼ白の灰色
+$secondary-bg-color    : #f1f4f4; //ポイント背景・暗めの灰色
+$gray                  : #495057; //濃い灰色
+//あお系
+$link-color            : #5057ff; //テキストリンク（落ち着いた青）
+$link-color-alt        : #7350FF; //テキストリンク2（ややムラサキ）
+$tag-color             : #00aeff; //水色
+$pale-blue             : #E0FBFF; //薄い水色
+//みどり系
+$primary-color         : #71D327; //（派手な黄緑）
+$primary-color-alt     : #74C13A; //（少し濁った黄緑）
+$secondary-color       : #407C5C; //（派手な深緑）？？
+$secondary-color-alt   : #407C5C; //（少し濁った深緑）
+$green-alt             : #467423;  // 抹茶色
+//ピンク系
+$alert-text-color      : #FF41B6; //（注意の文字・線の色）
+$alert-bg-color        : #FFF5FA; //（注意の背景色）
+$pale-orange           : #fff5dd; // 薄い黄色・オレンジ
+
+//ドキュメントのパス
+$DOCUMENT_PATH: './assets';
+//画像のパス
+$IMG_PATH: '#{$DOCUMENT_PATH}/img/';
+//背景 background: url(#{$IMG_PATH}/　← これで取得
+//ベンダープレフィックス
+$VENDOR_PREFIX: -webkit-, -moz-, -ms-, null;
+
+//メディクリ
+$ssmall:  "(max-width:480px)";
+$small:  "(max-width:768px)";
+$middle: "(max-width:980px)";
+$mmiddle: "(max-width:1000px)";
+$large:  "(max-width:1200px)";
+$largeMax: "(min-width:1201px)";
+$pc: "screen and (min-width: 769px)";
+@media #{largeMax} {
+    //1201px以上
+}
+@media #{large} {
+    //1200px以下
+}
+@media #{pc} {
+    //769px以上
+}
+@media #{$mmiddle} {
+    //1000px以下
+}
+@media #{middle} {
+    //980px以下
+}
+@media #{$small} {
+    //768px以下
+}
+@media #{$ssmall} {
+    //480px以下
+}
+
+// カラーコード
+$blue : #00aae4;
+$green : #71D327;
+
+//@include btn();
+//@include btn(display,width,textalign,color,fontweight,height,lineheight,paddingtop,border-radius);
+@mixin btn(
+  $display: block,
+  $width: 220px,
+  $text-align: center,
+  $color: #fff,
+  $font-weight: bold,
+  $height: 50px,
+  $line-height: 46px,
+  $padding-top:1px,
+  $border-radius: 25px
+){
+  display: $display;
+  width: $width;
+  text-align: $text-align;
+  color: $color;
+  font-weight: $font-weight;
+  height: $height;
+  line-height: $line-height;
+  padding-top: $padding-top;
+  border-radius: $border-radius;
+  border: 2px solid $primary-color;
+}
+$fs10 :.625rem;
+$fs11 :.6875rem;
+$fs12 : .75rem;
+$fs13 :.8125rem;
+$fs14 :.875rem;
+$fs15 :.9375rem;
+$fs16 :1rem;
+$fs17 :1.0625rem;
+$fs18 :1.125rem;
+$fs19 :1.1875rem;
+$fs20 :1.25rem;
+$fs21 :1.3125rem;
+$fs22 :1.375rem;
+$fs23 :1.4375rem;
+$fs24 :1.5rem;
+$fs25 :1.5625rem;
+$fs26 :1.625rem;
+$fs27 :1.6875rem;
+$fs28 :1.75rem;
+$fs29 :1.8125rem;
+$fs30 :1.875rem;

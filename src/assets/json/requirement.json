@@ -1,0 +1,11 @@
+[
+  {"id":"1","name":"自立","checked":"0"},
+  {"id":"2","name":"要支援1","checked":"0"},
+  {"id":"3","name":"要支援2","checked":"0"},
+  {"id":"4","name":"要介護1","checked":"0"},
+  {"id":"5","name":"要介護2","checked":"0"},
+  {"id":"6","name":"要介護3","checked":"0"},
+  {"id":"7","name":"要介護4","checked":"0"},
+  {"id":"8","name":"要介護5","checked":"0"},
+  {"id":"12","name":"身元保証人なし","checked":"0"}
+]

@@ -1,0 +1,47 @@
+//base.scss
+@import '@/scss/variable.scss';
+
+body{
+  position: relative;
+  text-rendering: optimizeLegibility;
+  * {
+      box-sizing: border-box;
+      word-wrap: break-word;
+      word-break: break-all;
+      font-smoothing: antialiased;
+  }
+}
+
+//大まかな文字の色
+h1,h2,h3,h4,h5,h6{
+  color:$text-color;
+}
+p,div,li{
+  color:$text-color;
+}
+dt,dd{
+  color:$text-color;
+}
+th,td{
+  color:$text-color;
+}
+
+a{
+  color : $link-color;
+}
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#resultScrollCenter { position: relative; }

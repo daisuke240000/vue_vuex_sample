@@ -1,0 +1,78 @@
+{
+  "name": "vue-hitoshia",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "i18n:report": "vue-cli-service i18n:report --src './src/**/*.?(js|vue)' --locales './src/locales/**/*.json'"
+  },
+  "dependencies": {
+    "@digitalkaoz/preload-polyfill": "^1.22.5",
+    "@fortawesome/fontawesome-free-webfonts": "^1.0.9",
+    "@vue/preload-webpack-plugin": "^1.1.0",
+    "autoprefixer": "^9.4.10",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^2.0.0-rc.14",
+    "html-webpack-plugin": "^3.2.0",
+    "ismobilejs": "^0.5.1",
+    "jquery": "^3.3.1",
+    "moment": "^2.24.0",
+    "node-sass": "^4.11.0",
+    "postcss": "^7.0.14",
+    "postcss-loader": "^3.0.0",
+    "pug": "^2.0.3",
+    "pug-plain-loader": "^1.0.0",
+    "sass-loader": "^7.1.0",
+    "vue-gtm": "^2.0.0",
+    "vue-head": "^2.1.1",
+    "vue-loader": "^15.7.0",
+    "vue-router": "^3.0.1",
+    "vue-select": "^2.6.3",
+    "vuex": "^3.0.1",
+    "vuex-persistedstate": "^2.5.4"
+  },
+  "devDependencies": {
+    "@kazupon/vue-i18n-loader": "^0.3.0",
+    "@types/webpack": "^4.4.0",
+    "@vue/cli-plugin-babel": "^3.5.0",
+    "@vue/cli-plugin-eslint": "^3.5.0",
+    "@vue/cli-service": "^3.6.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue": "^2.6.10",
+    "vue-cli-plugin-i18n": "^0.6.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/recommended",
+      "eslint:recommended"
+    ],
+    "rules": {
+      "no-control-regex": 0,
+      "no-console": "off",
+      "vue/no-v-html": "off"
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}

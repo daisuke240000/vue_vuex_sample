@@ -1,0 +1,37 @@
+{
+"name": "Hitoshia-Kaigo",
+"short_name": "Hitoshia",
+"start_url": "/kaigo/",
+"icons": [
+{
+"src": "/kaigo/img/homescreen48.png",
+"sizes": "48x48",
+"type": "image/png",
+"density": "1.0"
+},{
+"src": "/kaigo/common/img/homescreen72.png",
+"sizes": "72x72",
+"type": "image/png",
+"density": "1.5"
+},{
+"src": "/kaigo/common/img/homescreen96.png",
+"sizes": "96x96",
+"type": "image/png",
+"density": "2.0"
+},{
+"src": "/kaigo/common/img/homescreen144.png",
+"sizes": "144x144",
+"type": "image/png",
+"density": "3.0"
+},{
+"src": "/kaigo/common/img/homescreen192.png",
+"sizes": "192x192",
+"type": "image/png",
+"density": "4"
+}
+],
+"theme_color": "#71d328",
+"background_color": "#FFFFFF",
+"display": "fullscreen",
+"orientation": "portrait"
+}

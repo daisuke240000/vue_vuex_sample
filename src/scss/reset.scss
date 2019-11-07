@@ -1,0 +1,47 @@
+/*reset.css*/
+
+:root{
+   --font-family-sans-serif:'Avenir Next',"Noto Sans JP","Lato","ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN,'Helvetica Neue', Meiryo, sans-serif!important;
+}
+#app{
+   font-family:'Avenir Next',"Noto Sans JP","Lato","ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN,'Helvetica Neue', Meiryo, sans-serif!important;
+}
+
+/* IE10 */
+@media all and (-ms-high-contrast: none)  {
+  :root{
+    --font-family-sans-serif: "Noto Sans JP","Lato",Verdana, Meiryo, sans-serif!important;
+  }
+  #app{
+    font-family: "Noto Sans JP","Lato",Verdana, Meiryo, sans-serif!important;
+  }
+}
+
+@media all and (-ms-high-contrast: active) {
+  :root{
+    --font-family-sans-serif: "Noto Sans JP","Lato", Verdana, Meiryo, sans-serif!important;
+  }
+  #app{
+    font-family: "Noto Sans JP","Lato", Verdana, Meiryo, sans-serif!important;
+  }
+}
+
+/* IE11 */
+@media all and (-ms-high-contrast:none) {
+	*::-ms-backdrop, :root{
+    --font-family-sans-serif: "Noto Sans JP","Lato", Verdana, Meiryo, sans-serif!important;
+  }
+	*::-ms-backdrop, #app{
+    font-family: "Noto Sans JP","Lato", Verdana, Meiryo, sans-serif!important;
+  }
+}
+
+/* Edge */
+@supports (-ms-ime-align:auto) {
+  :root{
+    --font-family-sans-serif: "Noto Sans JP","Lato", Verdana, Meiryo, sans-serif!important;
+  }
+  #app{
+    font-family: "Noto Sans JP","Lato", Verdana, Meiryo, sans-serif!important;
+  }
+}

@@ -1,0 +1,21 @@
+[
+  {"id":"5","name":"人工透析","checked":"0"},
+  {"id":"6","name":"糖尿病・インスリン","checked":"0"},
+  {"id":"7","name":"胃ろう","checked":"0"},
+  {"id":"9","name":"たん吸引","checked":"0"},
+  {"id":"10","name":"中心静脈栄養（IVH）","checked":"0"},
+  {"id":"11","name":"鼻腔・経管栄養","checked":"0"},
+  {"id":"12","name":"在宅酸素療法","checked":"0"},
+  {"id":"13","name":"カテーテル・尿バルーン","checked":"0"},
+  {"id":"14","name":"ストーマ・人工肛門","checked":"0"},
+  {"id":"18","name":"気管切開","checked":"0"},
+  {"id":"19","name":"ペースメーカー","checked":"0"},
+  {"id":"24","name":"筋萎縮性側索硬化症（ALS）","checked":"0"},
+  {"id":"27","name":"肝炎","checked":"0"},
+  {"id":"32","name":"結核","checked":"0"},
+  {"id":"33","name":"梅毒（ばいどく）","checked":"0"},
+  {"id":"34","name":"ブドウ球菌感染症（MRSA）","checked":"0"},
+  {"id":"35","name":"ヒト免疫不全ウイルス感染症（HIV）","checked":"0"},
+  {"id":"36","name":"褥瘡・床ずれ","checked":"0"},
+  {"id":"37","name":"疥癬（かいせん）","checked":"0"}
+]

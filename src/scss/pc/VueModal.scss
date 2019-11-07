@@ -1,0 +1,145 @@
+/*VueModal_PC*/
+@import '@/scss/variable.scss';
+.detailSearch{
+  color: $secondary-color-alt;
+  h2.extend:before{
+    width:416px;
+  }
+  .div{
+    color:$secondary-color-alt;
+    transition-duration: 0.3s;
+    &:hover{
+      opacity:1!important;
+      color:$primary-color;
+      transition-duration: 0.3s;
+    }
+    a{
+      color:$secondary-color-alt;
+    }
+  }
+  h2{color:$secondary-color-alt;}
+  h2:before{background-color:$secondary-color-alt;}
+  .iconWrapper{
+    margin: 0 auto; width: 640px;
+    .icons{
+      display: flex;
+      .div{
+        width:160px;
+        &:hover{opacity: .75}
+        span{
+          display:block;
+          margin-top: 20px
+        }
+      }
+    }
+  }
+}
+
+.dialog{
+  position: relative;
+  text-align: left;
+  width: 962px;
+  border-radius: 16px;
+  padding: 40px;
+  background-color: #fff;
+
+  h3{
+    font-weight:bold;
+    // font-size: 1.875rem;
+    font-size: 1.75rem;
+    color: #333;
+    line-height: 1.5;
+    letter-spacing: .05em;
+  }
+  p{
+    font-size: .88rem;
+    margin-bottom: 20px;
+  }
+  .ul{
+    .li{
+      width:160px;
+      font-size: .88rem;
+      margin-bottom: 20px;
+    }
+  }
+  .btnWrapper{
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    right:40px;
+    top:40px;
+    .Cancel{
+      background-color: none;
+      border:0;
+      width: 40px;
+    }
+  }
+  .primaryWrapper{
+    width:100%;
+    // margin: 0 auto;
+    text-align: center;
+  }
+  .btn-primary{
+      width:220px;
+      height: 50px;
+      line-height: 50px;
+      // padding-top: 4px;
+      font-weight: bold;
+      border-radius: 25px;
+      // margin: 0 auto;
+  }
+}
+
+.modal {
+  &.modal-overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 30;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  .modal-window {
+    background: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    width:962px;
+  }
+}
+// オーバーレイのトランジション
+.modal-enter-active, .modal-leave-active {
+  transition: opacity 0.4s;
+  // オーバーレイに包含されているモーダルウィンドウのトランジション
+  .modal-window {
+    transition: opacity 0.4s, transform 0.4s;
+  }
+}
+// ディレイを付けるとモーダルウィンドウが消えた後にオーバーレイが消える
+.modal-leave-active {
+  transition: opacity 0.6s ease 0.4s;
+}
+.modal-enter, .modal-leave-to {
+  opacity: 0;
+  .modal-window {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+}
+@media screen and (max-width:768px) {
+  .modal{
+    .modal-window{
+      width:95%;
+      .dialog{
+        width: 100%;
+        .ul .li{
+          width:auto;
+        }
+      }
+    }
+  }
+}
