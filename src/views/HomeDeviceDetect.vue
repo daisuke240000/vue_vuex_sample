@@ -25,15 +25,10 @@ export default {
   data () {
     var self = this
     return {
-      description:'日本中の介護施設情報が全てここに。介護施設探しは「ヒトシア介護」',
-      keyword:'介護,介護情報,介護施設情報,老人ホーム,ヒトシア,ヒトシア介護',
-      title:'介護施設・老人ホームを探すならヒトシア介護',
+      description:'あれ',
+      keyword:'あれ',
+      title:'あれ',
       site_url:'https://hitoshia.com/kaigo/',
-      //以下複製です。戻ってきたらデータを消します。
-      //以下複製です。戻ってきたらデータを消します。
-      //以下複製です。戻ってきたらデータを消します。
-      //以下複製です。戻ってきたらデータを消します。
-      //以下複製です。戻ってきたらデータを消します。
       citys: self.$store.state.cityJSON,
       prefs: self.$store.state.prefJSON,
     }
