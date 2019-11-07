@@ -4,7 +4,7 @@
     <div class="detailSearch">
       <div class="inner">
         <h2 class="extend font-weight-bold">
-          詳しい条件で介護施設を探す
+          詳しい条件であれを探す
         </h2>
         <div class="iconWrapper">
           <div class="icons">
@@ -20,11 +20,11 @@
     </div>
     <div class="kaigoMedia">
       <h2 class="extend font-weight-bold">
-        介護に関するお役立ち情報
+        あれ情報
       </h2>
       <div class="inner">
         <p class="mb20 textAlignLeft">
-          初めて介護をする方や、介護についてより詳しく知りたいという方も、介護施設選びのためにお役立てください。
+          初めてあれをする方や、あれについてより詳しく知りたいという方もあれ選びのためにお役立てください。
         </p>
       </div>
       <News />
