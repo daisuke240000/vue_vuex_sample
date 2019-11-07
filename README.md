@@ -1,6 +1,6 @@
 # README #
 
-## this is sample  
+## this is sample （not to use）
 
 ## Mac環境構築の方法
 
