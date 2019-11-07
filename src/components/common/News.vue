@@ -68,7 +68,7 @@ export default {
         .get(
           this.apiserver, {
             headers: { "Content-Type": "application/json" },
-            data: {} //←これ！！！
+            data: {}
           }
         )
         .then(response => {
@@ -82,14 +82,14 @@ export default {
     apiServer: function(){
       var self = this;
       var url = location.hostname;
-      if(url=='hitoshia.bla-one.net'){
-        self.apiserver = 'https://hitoshia.bla-one.net/media/wp-json/wp/v2/posts?_embed&per_page=12'
-      }else if(url=='hitoshia.com'){
-        self.apiserver = 'https://hitoshia.com/media/wp-json/wp/v2/posts?_embed&per_page=12'
+      if(url=='xxx.bla-one.net'){
+        self.apiserver = 'https://xxx.bla-one.net/media/wp-json/wp/v2/posts?_embed&per_page=12'
+      }else if(url=='xxx.com'){
+        self.apiserver = 'https://xxx.com/media/wp-json/wp/v2/posts?_embed&per_page=12'
       }else if(process.env.VUE_APP_ENV=='localhost'){
         self.apiserver = 'http://localhost:8001/media/wp-json/wp/v2/posts?_embed&per_page=12'
       }else if(process.env.VUE_APP_ENV=='private'){
-        self.apiserver = 'https://hitoshia.bla-one.net/media/wp-json/wp/v2/posts?_embed&per_page=12'
+        self.apiserver = 'https://xxx.bla-one.net/media/wp-json/wp/v2/posts?_embed&per_page=12'
       }
       // console.log(self.apiserver)
     },
