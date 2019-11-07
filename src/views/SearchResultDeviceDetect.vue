@@ -45,7 +45,7 @@ export default {
       return[
         { name: 'description', content: self.$store.state.description },
         { name: 'keyword', content: self.$store.state.keyword },
-        { property: 'og:title', content: self.$store.state.title+' | ヒトシア介護' },
+        { property: 'og:title', content: self.$store.state.title+' | あれ' },
         { property: 'og:description', content: self.$store.state.description },
         { property: 'og:type', content: 'website' },
         { property: 'og:url', content: self.$store.state.site_url },
@@ -55,7 +55,7 @@ export default {
   },
   created:function(){
     var self = this
-    //自分の今のURLをストアに入れておく。
+    //自分の今のURLをストアに入れておく。mutation使うべきか
     self.$store.state.site_url = location.href;
     //都道府県
     var url_pref;
@@ -355,13 +355,13 @@ export default {
     }
     //タイトル
     self.$store.state.title = '【'+self.$store.state.title+'】'
-    self.$store.state.keyword = self.$store.state.title +','+ '介護,介護情報,介護施設情報,老人ホーム,ヒトシア,ヒトシア介護'
-    self.$store.state.description = self.$store.state.title + 'の検索結果です。日本中の介護施設情報が全てここに。介護施設探しは「ヒトシア介護」'
+    self.$store.state.keyword = self.$store.state.title +','+ 'あれ'
+    self.$store.state.description = self.$store.state.title + 'の検索結果です。あれ'
     var _now =''
     if(self.$store.state.now > 1){
       _now = self.$store.state.now + 'ページ目｜'
     }
-    self.$store.state.title += assort+'の検索結果一覧｜'+ _now +'ヒトシア介護';
+    self.$store.state.title += assort+'の検索結果一覧｜'+ _now +'あれ';
   },
   methods: {
     isMobile() {
