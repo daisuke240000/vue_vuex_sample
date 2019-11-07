@@ -24,8 +24,8 @@ export default {
   data () {
     return {
       description:'',
-      keyword:'介護,介護情報,介護施設情報,老人ホーム,ヒトシア,ヒトシア介護',
-      title: '介護施設の詳細情報｜ヒトシア介護',
+      keyword:'あれ',
+      title: 'あれ',
       site_url:'',
     }
   },
@@ -41,7 +41,7 @@ export default {
       return[
         { name: 'description', content: self.description },
         { name: 'keyword', content: self.keyword },
-        { property: 'og:title', content: self.title +' | ヒトシア介護'},
+        { property: 'og:title', content: self.title +' | あれ'},
         { property: 'og:description', content: self.description },
         { property: 'og:type', content: 'website' },
         { property: 'og:url', content: self.site_url },
@@ -85,7 +85,7 @@ export default {
         .then(response => {
           self.$store.commit('updateStoreItem',response.data['resource']['data'] )
           //headで使う変数はwatchで監視する
-          self.title = response.data['resource']['data']['name']+'の詳細情報｜ヒトシア介護'
+          self.title = response.data['resource']['data']['name']+'の詳細情報｜あれ'
           self.description = response.data['resource']['data']['detail_info'].replace(/\r?\n/g, '');
         })
         .catch(error => {
