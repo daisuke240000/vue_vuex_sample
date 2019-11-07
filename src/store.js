@@ -492,7 +492,7 @@ export default new Vuex.Store({
       if(self.state.now > 1){
         now = self.state.now + 'ページ目｜'
       }
-      var tail = 'ヒトシア介護';
+      var tail = 'あれ';
       //書き換える
       window.document.title = area + jouken + assort + middle + now + tail
     },
@@ -545,14 +545,14 @@ export default new Vuex.Store({
       var self = this;
       var id = self.state.selectid.id;
       var apiserver;
-      if(location.hostname=='hitoshia.bla-one.net'){
-        apiserver = 'https://api.hitoshia.bla-one.net/api/v1/facilities/' + id
-      }else if(location.hostname=='hitoshia.com'){
-        apiserver = 'https://api.hitoshia.com/api/v1/facilities/' + id
+      if(location.hostname=='xxx.bla-one.net'){
+        apiserver = 'https://api.xxx.bla-one.net/api/v1/facilities/' + id
+      }else if(location.hostname=='xxx.com'){
+        apiserver = 'https://api.xxx.com/api/v1/facilities/' + id
       }else if(process.env.VUE_APP_ENV=='localhost'){
         apiserver = 'http://127.0.0.1:8001/api/v1/facilities/' + id
       }else if(process.env.VUE_APP_ENV=='private'){
-        apiserver = 'https://api.hitoshia.bla-one.net/api/v1/facilities/' + id
+        apiserver = 'https://api.xxx.bla-one.net/api/v1/facilities/' + id
       }
       axios
         .get(
