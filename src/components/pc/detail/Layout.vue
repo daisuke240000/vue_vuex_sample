@@ -15,27 +15,27 @@
               <div class="info">
                 <div class="first">
                   <div>
-                    <span class="title">一時金</span>
+                    <span class="title">あれ</span>
                     <span class="price">{{ item['min_deposit'] | yen }}<span class="black">{{ item['min_deposit'] | nyoro }}</span>{{ item['max_deposit'] | yen }}<span class="black">円</span></span>
                   </div>
                   <div>
-                    <span class="title">月額</span>
+                    <span class="title">あれ</span>
                     <span class="price">{{ item['min_amount']| yen }}<span class="black">{{ item['min_amount'] | nyoro }}</span>{{ item['max_amount'] | yen }}<span class="black">円</span></span>
                   </div>
                 </div>
                 <div class="second">
                   <div class="address_wrapper">
-                    <span class="title">エリア</span><span class="address">{{ item['address'] }}</span>
+                    <span class="title">あれ</span><span class="address">{{ item['address'] }}</span>
                   </div>
                   <div class="access_wrapper">
-                    <span class="title">路線</span><span class="access_info">{{ item['access_info'] }}</span>
+                    <span class="title">あれ</span><span class="access_info">{{ item['access_info'] }}</span>
                   </div>
                 </div>
               </div>
               <div class="btnWrapper">
                 <p class="operation">
-                  運営法人：<span>{{ item['corporation'] }}</span><br>
-                  出所：介護サービス情報公表システム
+                  あれ：<span>{{ item['corporation'] }}</span><br>
+                  出所：あれ
                 </p>
               </div>
             </div>
