@@ -21,7 +21,7 @@
     "ismobilejs": "^0.5.1",
     "jquery": "^3.4.0",
     "moment": "^2.24.0",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.13.1",
     "postcss": "^7.0.14",
     "postcss-loader": "^3.0.0",
     "pug": "^2.0.3",
